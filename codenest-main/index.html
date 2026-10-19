@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="CodeNest - Academia de formación práctica en programación para Centroamérica. Tu primer paso, escrito en código.">
+  <title>CodeNest | Tu primer paso, escrito en código</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="top-notice-bar">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap gap-2">
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge-highlight">CONVOCATORIA 2026</span>
+        <span>Inscripciones abiertas para bootcamps de 8 a 16 semanas</span>
+      </div>
+      <div class="d-none d-md-flex align-items-center gap-3">
+        <span><i class="bi bi-geo-alt-fill text-info me-1"></i> San Salvador, El Salvador</span>
+        <span><i class="bi bi-envelope-fill text-info me-1"></i> contacto@codenest.edu.sv</span>
+      </div>
+    </div>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-dark main-navigation" aria-label="Navegación principal">
+    <div class="container">
+      <a class="navbar-brand brand-logo-container" href="index.html">
+        <img src="img/logo-icono.png" alt="Logotipo de CodeNest: ave dentro de un nido con corchetes de código" width="48" height="48">
+        <span class="brand-title">Code<span class="nest-gradient">Nest</span></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCodeNest"
+        aria-controls="navbarCodeNest" aria-expanded="false" aria-label="Abrir menú de navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCodeNest">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html" aria-current="page"><i class="bi bi-house-door me-1"></i>
+              Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nosotros.html"><i class="bi bi-people me-1"></i> Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="servicios.html"><i class="bi bi-code-slash me-1"></i> Cursos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="faq.html"><i class="bi bi-question-circle me-1"></i> Preguntas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html"><i class="bi bi-journal-text me-1"></i> Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html"><i class="bi bi-envelope me-1"></i> Contacto</a>
+          </li>
+          <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+            <a href="servicios.html" class="btn btn-nav-cta">Comenzar Ahora</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <section class="hero-section text-center text-lg-start" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-7">
+            <div class="mb-3">
+              <span class="section-tag bg-opacity-25 text-info">ACADEMIA DE PROGRAMACIÓN PRÁCTICA</span>
+            </div>
+            <h1 id="hero-title" class="hero-title">
+              Tu primer paso, <br><span class="hero-highlight">escrito en código</span>.
+            </h1>
+            <p class="hero-subtitle">
+              Un nido seguro donde personas sin experiencia previa desarrollan habilidades reales de desarrollo web y
+              software para ingresar al mercado laboral en 8 a 16 semanas.
+            </p>
+            <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start">
+              <a href="servicios.html" class="btn btn-brand-primary btn-lg">
+                <i class="bi bi-rocket-takeoff me-2"></i> Explorar Bootcamps
+              </a>
+              <a href="nosotros.html" class="btn btn-brand-outline btn-lg">
+                <i class="bi bi-info-circle me-2"></i> Conoce Nuestra Metodología
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-5 text-center">
+            <div class="p-3 bg-dark bg-opacity-50 rounded-4 border border-info border-opacity-25 shadow-lg">
+              <img src="img/logo-principal.png" alt="Logotipo oficial CodeNest"
+                class="img-fluid rounded-3 shadow" loading="lazy">
+              <p class="small text-muted mt-2 mb-0">Identidad visual CodeNest: nuestro nido de código</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== VIDEO INSTITUCIONAL ===================== -->
+    <section class="py-5 bg-white" aria-labelledby="video-heading">
+      <div class="container text-center">
+        <header class="section-header text-center">
+          <span class="section-tag">Conócenos en Video</span>
+          <h2 id="video-heading" class="section-title">Así se vive una clase en CodeNest</h2>
+          <p class="section-subtitle mx-auto">Un vistazo a nuestra metodología práctica y al ambiente de mentoría
+            en vivo.</p>
+        </header>
+        <div class="ratio ratio-16x9 rounded-4 overflow-hidden shadow-sm mx-auto" style="max-width: 800px;">
+          <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/lvJPBjxZMJA?si=qSbRMhD-RaRc77EF&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-white" aria-labelledby="valor-title">
+      <div class="container">
+        <header class="section-header text-center">
+          <span class="section-tag">¿Por qué elegirnos?</span>
+          <h2 id="valor-title" class="section-title">El Nido que impulsa tu carrera tecnológica</h2>
+          <p class="section-subtitle mx-auto">
+            A diferencia de las alternativas tradicionales, en CodeNest nos enfocamos en el aprendizaje práctico, la
+            cercanía con mentores y proyectos para tu portafolio.
+          </p>
+        </header>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <article class="semantic-card">
+              <div class="card-icon-badge">
+                <i class="bi bi-hammer"></i>
+              </div>
+              <h3>Aprender Haciendo</h3>
+              <p>Metodología 100% práctica desde el día uno. Menos teoría estéril y más código en proyectos reales que
+                puedas mostrar a reclutadores.</p>
+              <footer class="semantic-card-footer">
+                <span class="badge-code">8 a 16 semanas</span>
+              </footer>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="semantic-card">
+              <div class="card-icon-badge">
+                <i class="bi bi-people-fill"></i>
+              </div>
+              <h3>Grupos Reducidos</h3>
+              <p>Acompañamiento cercano y personalizado con mentores activos en la industria que resuelven tus dudas y
+                guían tu crecimiento profesional.</p>
+              <footer class="semantic-card-footer">
+                <span class="badge-code">Atención personalizada</span>
+              </footer>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="semantic-card">
+              <div class="card-icon-badge">
+                <i class="bi bi-briefcase-fill"></i>
+              </div>
+              <h3>Ruta a la Empleabilidad</h3>
+              <p>Formación orientada a las tecnologías más demandadas en el mercado laboral y preparación para
+                entrevistas técnicas reales.</p>
+              <footer class="semantic-card-footer">
+                <span class="badge-code">Portafolio profesional</span>
+              </footer>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5" style="background-color: #F8FAFC;" aria-labelledby="cursos-title">
+      <div class="container">
+        <header class="section-header text-center">
+          <span class="section-tag">Nuestras Rutas de Formación</span>
+          <h2 id="cursos-title" class="section-title">Programas diseñados para empezar desde cero</h2>
+          <p class="section-subtitle mx-auto">Selecciona la ruta que mejor se adapte a tus metas profesionales.</p>
+        </header>
+
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <article class="semantic-card">
+              <span class="badge bg-primary mb-2 align-self-start">Ruta Inicial</span>
+              <h4>Fundamentos de Programación</h4>
+              <p>Aprende lógica computacional, algoritmos y sintaxis estructurada sin necesidad de experiencia previa.
+              </p>
+              <ul class="list-unstyled text-muted small my-3">
+                <li><i class="bi bi-check2-circle text-primary me-2"></i>Lógica y Algoritmos</li>
+                <li><i class="bi bi-check2-circle text-primary me-2"></i>Estructuras de Control</li>
+                <li><i class="bi bi-check2-circle text-primary me-2"></i>Duración: 8 semanas</li>
+              </ul>
+              <footer class="semantic-card-footer d-flex justify-content-between align-items-center">
+                <span class="fw-bold text-primary">Nivel Principiante</span>
+                <a href="servicios.html" class="btn btn-sm btn-outline-primary">Ver Detalles</a>
+              </footer>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article class="semantic-card">
+              <span class="badge bg-info text-dark mb-2 align-self-start">Más Popular</span>
+              <h4>Desarrollo Web Front-End</h4>
+              <p>Construye sitios interactivos y modernos dominando HTML5 semántico, CSS3, Bootstrap y JavaScript.</p>
+              <ul class="list-unstyled text-muted small my-3">
+                <li><i class="bi bi-check2-circle text-info me-2"></i>HTML5 Semántico y CSS3</li>
+                <li><i class="bi bi-check2-circle text-info me-2"></i>Bootstrap & Responsive Design</li>
+                <li><i class="bi bi-check2-circle text-info me-2"></i>Duración: 12 semanas</li>
+              </ul>
+              <footer class="semantic-card-footer d-flex justify-content-between align-items-center">
+                <span class="fw-bold text-info">Nivel Intermedio</span>
+                <a href="servicios.html" class="btn btn-sm btn-outline-primary">Ver Detalles</a>
+              </footer>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article class="semantic-card">
+              <span class="badge bg-success mb-2 align-self-start">Avanzado</span>
+              <h4>Desarrollo Full Stack</h4>
+              <p>Integra el frontend interactivo con arquitectura backend, APIs REST y bases de datos relacionales SQL.
+              </p>
+              <ul class="list-unstyled text-muted small my-3">
+                <li><i class="bi bi-check2-circle text-success me-2"></i>Front-End + Back-End</li>
+                <li><i class="bi bi-check2-circle text-success me-2"></i>Bases de Datos & SQL</li>
+                <li><i class="bi bi-check2-circle text-success me-2"></i>Duración: 16 semanas</li>
+              </ul>
+              <footer class="semantic-card-footer d-flex justify-content-between align-items-center">
+                <span class="fw-bold text-success">Nivel Integral</span>
+                <a href="servicios.html" class="btn btn-sm btn-outline-primary">Ver Detalles</a>
+              </footer>
+            </article>
+          </div>
+        </div>
+
+        <div class="text-center mt-5">
+          <a href="servicios.html" class="btn btn-brand-primary">Ver Todas las Rutas y Galería <i
+              class="bi bi-arrow-right ms-1"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TESTIMONIOS ===================== -->
+    <section class="py-5 bg-white" aria-labelledby="testimonios-heading">
+      <div class="container">
+        <header class="section-header text-center">
+          <span class="section-tag">Voces de la Comunidad</span>
+          <h2 id="testimonios-heading" class="section-title">Lo que dicen nuestros estudiantes</h2>
+          <p class="section-subtitle mx-auto">Experiencias reales de personas que dieron su primer paso en
+            programación con CodeNest.</p>
+        </header>
+
+        <div id="carruselTestimonios" class="carousel carousel-dark slide testimonial-carousel" data-bs-ride="carousel"
+          data-bs-interval="7000" aria-label="Testimonios de estudiantes">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carruselTestimonios" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Testimonio 1"></button>
+          <button type="button" data-bs-target="#carruselTestimonios" data-bs-slide-to="1" aria-label="Testimonio 2"></button>
+          <button type="button" data-bs-target="#carruselTestimonios" data-bs-slide-to="2" aria-label="Testimonio 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <article class="semantic-card">
+                  <div class="d-flex align-items-center gap-3 mb-3">
+                    <div class="card-icon-badge mb-0">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div>
+                      <h6 class="fw-bold mb-0">Carlos Martínez</h6>
+                      <small class="text-muted">Fundamentos de Programación</small>
+                    </div>
+                  </div>
+                  <p class="text-muted mb-0">
+                    "Llegué a CodeNest sin saber nada de programación y con miedo de no entender nada. Los mentores explican con calma y los grupos pequeños hicieron toda la diferencia para resolver mis dudas a tiempo."
+                  </p>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <article class="semantic-card">
+                  <div class="d-flex align-items-center gap-3 mb-3">
+                    <div class="card-icon-badge mb-0">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div>
+                      <h6 class="fw-bold mb-0">Daniela Ramírez</h6>
+                      <small class="text-muted">Desarrollo Web Front-End</small>
+                    </div>
+                  </div>
+                  <p class="text-muted mb-0">
+                    "Venía de otra carrera y quería un cambio rápido. En 12 semanas ya tenía un portafolio real que mostrar, algo que en la universidad me hubiera tomado años."
+                  </p>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <article class="semantic-card">
+                  <div class="d-flex align-items-center gap-3 mb-3">
+                    <div class="card-icon-badge mb-0">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div>
+                      <h6 class="fw-bold mb-0">Josué Hernández</h6>
+                      <small class="text-muted">Desarrollo Full Stack</small>
+                    </div>
+                  </div>
+                  <p class="text-muted mb-0">
+                    "Lo que más valoro es que todo se aprende haciendo proyectos reales. Eso me dio la confianza para presentarme a mi primera entrevista técnica."
+                  </p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carruselTestimonios" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carruselTestimonios" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-lg-8">
+          <section class="p-4 bg-white rounded-3 shadow-sm border" aria-labelledby="comunidad-title">
+            <h3 id="comunidad-title" class="fw-bold text-dark mb-3"><i
+                class="bi bi-mortarboard text-primary me-2"></i>Nuestra Filosofía: El Nido Tecnológico</h3>
+            <p>
+              En CodeNest entendemos que aprender a programar puede ser desafiante al inicio. Por eso, hemos concebido
+              cada programa como un espacio de resguardo y crecimiento: un entorno donde cometer errores es parte del
+              aprendizaje y cada línea de código construida te acerca a tu primer empleo en el sector digital.
+            </p>
+            <div class="row g-3 mt-2">
+              <div class="col-sm-6">
+                <div class="p-3 bg-light rounded-2 border-start border-primary border-4">
+                  <h6 class="fw-bold mb-1">Flexibilidad Online</h6>
+                  <small class="text-muted">Aprende a tu ritmo desde cualquier lugar con sesiones en vivo
+                    grabadas.</small>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="p-3 bg-light rounded-2 border-start border-info border-4">
+                  <h6 class="fw-bold mb-1">Comunidad Activa</h6>
+                  <small class="text-muted">Red de egresados, compañeros de estudio y mentores dispuestos a
+                    apoyarte.</small>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="col-lg-4">
+          <aside class="semantic-aside mt-lg-0" aria-label="Información complementaria y convocatorias">
+            <h4 class="aside-title"><i class="bi bi-calendar-event text-primary"></i> Próximos Inicios</h4>
+            <p class="small text-muted mb-3">Los grupos reducidos garantizan cupos limitados por cohorte.</p>
+            <ul class="list-unstyled small mb-3">
+              <li class="mb-2 pb-2 border-bottom">
+                <strong>Fundamentos de Programación</strong><br>
+                <span class="text-primary"><i class="bi bi-clock me-1"></i>Inicio: 1 de Octubre</span>
+              </li>
+              <li class="mb-2 pb-2 border-bottom">
+                <strong>Desarrollo Web Front-End</strong><br>
+                <span class="text-primary"><i class="bi bi-clock me-1"></i>Inicio: 15 de Octubre</span>
+              </li>
+            </ul>
+            <div class="p-2 bg-white rounded border text-center">
+              <span class="badge bg-warning text-dark mb-1">Beca Primer Paso</span>
+              <p class="small mb-2">Descuento especial para estudiantes que comienzan desde cero.</p>
+              <a href="contacto.html" class="btn btn-sm btn-primary w-100">Consultar Cupo</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="main-footer" aria-label="Pie de página institucional">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="brand-logo-container mb-3">
+        <img src="img/logo-icono.png" alt="Logotipo de CodeNest: ave dentro de un nido con corchetes de código" width="48" height="48">
+        <span class="brand-title">Code<span class="nest-gradient">Nest</span></span>
+          </div>
+          <p class="footer-brand-desc">
+            "Tu primer paso, escrito en código."<br>
+            Academia de formación tecnológica práctica, corta y accesible en Centroamérica.
+          </p>
+          <div class="d-flex gap-3 fs-5 mt-3">
+            <a href="https://facebook.com" class="text-white-50" aria-label="Facebook CodeNest" target="_blank"
+              rel="noopener"><i class="bi bi-facebook"></i></a>
+            <a href="https://instagram.com" class="text-white-50" aria-label="Instagram CodeNest" target="_blank"
+              rel="noopener"><i class="bi bi-instagram"></i></a>
+            <a href="https://x.com" class="text-white-50" aria-label="X (Twitter) CodeNest" target="_blank"
+              rel="noopener"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://youtube.com" class="text-white-50" aria-label="YouTube CodeNest" target="_blank"
+              rel="noopener"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5 class="footer-heading">Navegación</h5>
+          <ul class="footer-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="servicios.html">Cursos & Rutas</a></li>
+            <li><a href="faq.html">Preguntas</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="footer-heading">Rutas Formativas</h5>
+          <ul class="footer-links">
+            <li><a href="servicios.html">Fundamentos de Programación</a></li>
+            <li><a href="servicios.html">Desarrollo Web Front-End</a></li>
+            <li><a href="servicios.html">Desarrollo Web Back-End</a></li>
+            <li><a href="servicios.html">Desarrollo Full Stack</a></li>
+            <li><a href="servicios.html">Bases de Datos y SQL</a></li>
+            <li><a href="ux-ui.html">Diseño UX/UI para la Web</a></li>
+            <li><a href="git-github.html">Git, GitHub y Despliegue</a></li>
+            <li><a href="ciencia-datos.html">Ciencia de Datos con Python</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="footer-heading">Contacto</h5>
+          <ul class="footer-links text-light small">
+            <li class="mb-2"><i class="bi bi-geo-alt text-info me-2"></i> San Salvador, El Salvador</li>
+            <li class="mb-2"><i class="bi bi-envelope text-info me-2"></i> contacto@codenest.edu.sv</li>
+            <li class="mb-2"><i class="bi bi-telephone text-info me-2"></i> +503 2200-0000</li>
+            <li class="mb-2"><i class="bi bi-clock text-info me-2"></i> Lun - Vie: 8:00 AM - 6:00 PM · Sáb: 8:00 AM - 12:00 PM</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom d-flex flex-wrap justify-content-between align-items-center gap-2">
+        <p class="mb-0">&copy; <span id="current-year">2026</span> CodeNest. Todos los derechos reservados.</p>
+        <p class="mb-0 text-muted small">
+          Universidad Don Bosco | LME901 - Lenguajes de Marcado y Estilo Web | Grupo 2
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Dependencias y compilados
+node_modules/
+dist/
+build/
+
+# Variables de entorno y datos privados
+.env
+.env.*
+
+# Logs y temporales
+*.log
+*.tmp
+
+# Netlify (configuración local)
+.netlify/
+
+# Videos pesados (se comparten por Drive o YouTube)
+# Descomenta las líneas si no quieres subirlos al repositorio
+# videos/
+# *.mp4
+# *.mov
